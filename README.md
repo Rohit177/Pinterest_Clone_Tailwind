@@ -15,7 +15,7 @@
 <img src="https://img.shields.io/badge/Tailwind%20CSS-3.3.3-38B2AC?style=for-the-badge&logo=tailwind-css" alt="Tailwind CSS Version">
 </p>
 
-## Table of Contents
+## 📂 Table of Contents
 
 - [About](#about)
 - [Demo](#demo)
@@ -25,12 +25,12 @@
   - [Installation](#installation)
 
 
-## About
+## ✉️ About
 
 🚀 Welcome to the Pinterest UI Clone project! This project was created with the goal of recreating the delightful Pinterest experience. Built using Tailwind CSS, it offers a visually appealing image-sharing platform.
 
 
-## Demo
+## 🖥 Demo
 ![Screenshot (90)](https://github.com/Rohit177/Pinterest_Clone_Tailwind/assets/34981708/148cb0b8-fadf-4f5d-8f93-c983759353ca)
 
 
@@ -45,17 +45,17 @@ https://github.com/Rohit177/Pinterest_Clone_Tailwind/assets/34981708/58a53c5e-2e
 - Intuitive User Interactions 🖱️
 - Image Sharing 📲
 
-## Getting Started
+## 📝 Getting Started
 Follow these steps to get the Pinterest UI clone up and running on your local machine.
 
-## Prerequisites
+## 🧲 Prerequisites
 Before you begin, ensure you have met the following requirements:
 
 ![Node.js Version](https://img.shields.io/badge/Node.js-14.17.6-green?style=for-the-badge&logo=node.js)
 - Node.js: Make sure you have Node.js installed. You can download it from nodejs.org.
 
 
-## Installation
+## ⌨️ Installation
 1. **Clone the Repository:**
    ```
    bash
