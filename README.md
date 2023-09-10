@@ -23,9 +23,7 @@
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## About
 
@@ -51,7 +49,7 @@ Follow these steps to get the Pinterest UI clone up and running on your local ma
 Before you begin, ensure you have met the following requirements:
 
 - Node.js: Make sure you have Node.js installed. You can download it from nodejs.org.
-Installation
+## Installation
 1. **Clone the Repository:**
    ```
    bash
