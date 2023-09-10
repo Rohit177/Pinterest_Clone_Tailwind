@@ -2,9 +2,7 @@
 <h1 align="center">Pinterest Clone</h1>
 
 <p align="center">
-  <img src="https://github.com/Rohit177/Pinterest_Clone_Tailwind/assets/34981708/d01eaae7-310e-4437-ab8b-bd06e0deb794" alt="Project Demo">
-  
-
+![Screenshot (90)](https://github.com/Rohit177/Pinterest_Clone_Tailwind/assets/34981708/4b498276-7514-466d-b4e2-17e5c5489906)
 </p>
 
 <p align="center">
