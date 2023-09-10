@@ -35,6 +35,10 @@ A Pinterest UI clone built using Tailwind CSS. Explore a visually appealing imag
 ![Screenshot (90)](https://github.com/Rohit177/Pinterest_Clone_Tailwind/assets/34981708/148cb0b8-fadf-4f5d-8f93-c983759353ca)
 
 
+https://github.com/Rohit177/Pinterest_Clone_Tailwind/assets/34981708/58a53c5e-2e36-4461-821f-fc9d38f09a6c
+
+
+
 ## Features
 
 List the key features of your Pinterest clone project:
