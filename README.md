@@ -1,18 +1,18 @@
 
 <h1 align="center">Pinterest Clone</h1>
 
-<p align="center">
-![Screenshot (90)](https://github.com/Rohit177/Pinterest_Clone_Tailwind/assets/34981708/4b498276-7514-466d-b4e2-17e5c5489906)
-</p>
-https://github.com/Rohit177/Pinterest_Clone_Tailwind/assets/34981708/4b498276-7514-466d-b4e2-17e5c5489906.png
+
+![Screenshot (90)](https://github.com/Rohit177/Pinterest_Clone_Tailwind/assets/34981708/eac3c3e2-714f-4bcc-8ed8-fb2b2f984b26)
+
 <p align="center">
   A Pinterest-inspired image sharing platform built with Tailwind CSS.
 </p>
 
 <!-- Add badges, if applicable -->
 <p align="center">
-  <img src="https://img.shields.io/badge/version-1.0.0-blue.svg" alt="Version">
-  <img src="https://img.shields.io/github/license/yourusername/your-repo" alt="License">
+   <img src="https://img.shields.io/badge/Pinterest-%E2%9C%93-BD081C?style=for-the-badge&logo=pinterest" alt="Pinterest Profile">
+
+<img src="https://img.shields.io/badge/Tailwind%20CSS-3.3.3-38B2AC?style=for-the-badge&logo=tailwind-css" alt="Tailwind CSS Version">
 </p>
 
 ## Table of Contents
@@ -32,6 +32,7 @@ https://github.com/Rohit177/Pinterest_Clone_Tailwind/assets/34981708/4b498276-75
 Describe your Pinterest clone project here. Mention the motivation behind building it and any specific technologies or frameworks used.
 
 ## Demo
+![Screenshot (90)](https://github.com/Rohit177/Pinterest_Clone_Tailwind/assets/34981708/eac3c3e2-714f-4bcc-8ed8-fb2b2f984b26)
 
 ![Project Demo](demo-screenshot.png)
 
