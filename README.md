@@ -4,7 +4,7 @@
 <p align="center">
 ![Screenshot (90)](https://github.com/Rohit177/Pinterest_Clone_Tailwind/assets/34981708/4b498276-7514-466d-b4e2-17e5c5489906)
 </p>
-
+https://github.com/Rohit177/Pinterest_Clone_Tailwind/assets/34981708/4b498276-7514-466d-b4e2-17e5c5489906.png
 <p align="center">
   A Pinterest-inspired image sharing platform built with Tailwind CSS.
 </p>
