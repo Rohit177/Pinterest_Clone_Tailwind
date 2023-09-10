@@ -29,14 +29,11 @@
 
 ## About
 
-Describe your Pinterest clone project here. Mention the motivation behind building it and any specific technologies or frameworks used.
+A Pinterest UI clone built using Tailwind CSS. Explore a visually appealing image sharing platform with responsive design and intuitive user interactions.
 
 ## Demo
-![Screenshot (90)](https://github.com/Rohit177/Pinterest_Clone_Tailwind/assets/34981708/eac3c3e2-714f-4bcc-8ed8-fb2b2f984b26)
+![Screenshot (90)](https://github.com/Rohit177/Pinterest_Clone_Tailwind/assets/34981708/148cb0b8-fadf-4f5d-8f93-c983759353ca)
 
-![Project Demo](demo-screenshot.png)
-
-Provide a screenshot or GIF of your project in action. This section helps users visualize your project.
 
 ## Features
 
