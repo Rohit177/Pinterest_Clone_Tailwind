@@ -40,23 +40,47 @@ https://github.com/Rohit177/Pinterest_Clone_Tailwind/assets/34981708/58a53c5e-2e
 
 
 ## Features
-
-List the key features of your Pinterest clone project:
-
-- Feature 1: Describe feature 1.
-- Feature 2: Describe feature 2.
-- ...
+- Feature 1: Complete UI Design with Elements.
+- Feature 2: Link of SVG and images.
+- Feature 2: Custom floating shadow for button.
 
 ## Getting Started
+Follow these steps to get the Pinterest UI clone up and running on your local machine.
 
-Provide instructions for setting up and running your project locally. Include any prerequisites and installation steps.
+## Prerequisites
+Before you begin, ensure you have met the following requirements:
 
-### Prerequisites
+- Node.js: Make sure you have Node.js installed. You can download it from nodejs.org.
+Installation
+1. **Clone the Repository:**
+   ```
+   bash
+   git clone https://github.com/Rohit177/Pinterest_Clone_Tailwind
 
-List any software or dependencies that need to be installed.
+   cd Pinterest_Clone_Tailwind
+   ```
+   
+2. Install Dependencies:
+   ```
+   # Using npm
+   npm install -D tailwindcss postcss autoprefixer vite
+   npx tailwindcss init -p
+   
+   # Using Yarn
+   yarn
+   ```
+   Check out tailwind docs for more information https://tailwindcss.com/docs/installation/using-postcss
+   
 
-```bash
-# Example:
-# - Node.js
-# - npm or Yarn
-# - Any other dependencies
+3. Start the Development Server:
+   ```
+   # Using npm
+   npm run start
+   
+   # Using Yarn
+   yarn run start
+   ```
+
+4. Start Experimenting:
+   Open index.html in your code editor and start experimenting with the Pinterest Tailwind CSS.
+
