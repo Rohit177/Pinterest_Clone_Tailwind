@@ -1,9 +1,10 @@
-<!-- Replace the placeholders below with your project information -->
 
 <h1 align="center">Pinterest Clone</h1>
 
 <p align="center">
-  <img src="demo-screenshot.png" alt="Project Demo">
+  <img src="https://github.com/Rohit177/Pinterest_Clone_Tailwind/assets/34981708/d01eaae7-310e-4437-ab8b-bd06e0deb794" alt="Project Demo">
+  
+
 </p>
 
 <p align="center">
