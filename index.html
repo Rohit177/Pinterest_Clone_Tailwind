@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Pinterest</title>
+  </head>
+  <body>
+    <!-- navigation  -->
+    <header class="body-font text-gray-600">
+      <div class="container mx-auto flex flex-col flex-wrap items-center p-5 md:flex-row">
+        <a class="title-font mb-4 flex items-center font-medium text-gray-900 md:mb-0">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" class="h-10 w-10 text-white">
+            <circle cx="24" cy="24" r="20" fill="#E60023"></circle>
+            <path fill="#FFF" d="M24.4439087,11.4161377c-8.6323242,0-13.2153931,5.7946167-13.2153931,12.1030884	c0,2.9338379,1.5615234,6.5853882,4.0599976,7.7484131c0.378418,0.1762085,0.581543,0.1000366,0.668457-0.2669067	c0.0668945-0.2784424,0.4038086-1.6369019,0.5553589-2.2684326c0.0484619-0.2015381,0.0246582-0.3746338-0.1384277-0.5731201	c-0.8269653-1.0030518-1.4884644-2.8461304-1.4884644-4.5645752c0-4.4115601,3.3399658-8.6799927,9.0299683-8.6799927	c4.9130859,0,8.3530884,3.3484497,8.3530884,8.1369019c0,5.4099731-2.7322998,9.1584473-6.2869263,9.1584473	c-1.9630737,0-3.4330444-1.6238403-2.9615479-3.6153564c0.5654297-2.3769531,1.6569214-4.9415283,1.6569214-6.6584473	c0-1.5354004-0.8230591-2.8169556-2.5299683-2.8169556c-2.006958,0-3.6184692,2.0753784-3.6184692,4.8569336	c0,1.7700195,0.5984497,2.9684448,0.5984497,2.9684448s-1.9822998,8.3815308-2.3453979,9.9415283	c-0.4019775,1.72229-0.2453003,4.1416016-0.0713501,5.7233887l0,0c0.4511108,0.1768799,0.9024048,0.3537598,1.3687744,0.4981079l0,0	c0.8168945-1.3278198,2.0349731-3.5056763,2.4864502-5.2422485c0.2438354-0.9361572,1.2468872-4.7546387,1.2468872-4.7546387	c0.6515503,1.2438965,2.5561523,2.296936,4.5831299,2.296936c6.0314941,0,10.378418-5.546936,10.378418-12.4400024	C36.7738647,16.3591919,31.3823242,11.4161377,24.4439087,11.4161377z"></path>
+          </svg>
+        </a>
+
+        <nav class="flex cursor-pointer flex-wrap items-center justify-center font-medium text-black md:mr-auto">
+          <a class="ml-5 rounded-full bg-black px-4 py-3 text-white">Home</a>
+          <a class="ml-5">Exolore</a>
+          <a class="ml-5 flex">Create <img width="24" height="24" src="https://img.icons8.com/material-two-tone/24/expand-arrow--v1.png" alt="expand-arrow--v1" /></a>
+          <!-- search box  -->
+          <div class="relative ml-5 block">
+            <span class="absolute inset-y-0 left-0 flex items-center pl-2">
+              <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="22px" fill="#3D3D3D" height="22px" viewBox="0 0 72 72">
+                <path d="M 31 11 C 19.973 11 11 19.973 11 31 C 11 42.027 19.973 51 31 51 C 34.974166 51 38.672385 49.821569 41.789062 47.814453 L 54.726562 60.751953 C 56.390563 62.415953 59.088953 62.415953 60.751953 60.751953 C 62.415953 59.087953 62.415953 56.390563 60.751953 54.726562 L 47.814453 41.789062 C 49.821569 38.672385 51 34.974166 51 31 C 51 19.973 42.027 11 31 11 z M 31 19 C 37.616 19 43 24.384 43 31 C 43 37.616 37.616 43 31 43 C 24.384 43 19 37.616 19 31 C 19 24.384 24.384 19 31 19 z"></path>
+              </svg>
+            </span>
+            <input type="search" placeholder="Search" class="text- w-[44rem] rounded-full bg-slate-200 py-3 pl-10 pr-3" />
+          </div>
+        </nav>
+
+        <!-- notification -->
+
+        <a href="#" class="hover:bg-mr-2 rounded-full px-3 py-3 hover:bg-slate-300">
+          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="28" height="28" viewBox="0 0 24 24" fill="#3D3D3D">
+            <path d="M 12 2 C 11.172 2 10.5 2.672 10.5 3.5 L 10.5 4.1953125 C 7.9131836 4.862095 6 7.2048001 6 10 L 6 16 L 4.4648438 17.15625 L 4.4628906 17.15625 A 1 1 0 0 0 4 18 A 1 1 0 0 0 5 19 L 12 19 L 19 19 A 1 1 0 0 0 20 18 A 1 1 0 0 0 19.537109 17.15625 L 18 16 L 18 10 C 18 7.2048001 16.086816 4.862095 13.5 4.1953125 L 13.5 3.5 C 13.5 2.672 12.828 2 12 2 z M 10 20 C 10 21.1 10.9 22 12 22 C 13.1 22 14 21.1 14 20 L 10 20 z"></path>
+          </svg>
+        </a>
+        <!-- chat  -->
+        <a href="#" class="hover:bg-mr-2 rounded-full px-3 py-3 hover:bg-slate-300">
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="#3D3D3D" class="bi bi-chat-text-fill" viewBox="0 0 16 16"><path d="M16 8c0 3.866-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.584.296-1.925.864-4.181 1.234-.2.032-.352-.176-.273-.362.354-.836.674-1.95.77-2.966C.744 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7zM4.5 5a.5.5 0 0 0 0 1h7a.5.5 0 0 0 0-1h-7zm0 2.5a.5.5 0 0 0 0 1h7a.5.5 0 0 0 0-1h-7zm0 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1h-4z" /></svg>
+        </a>
+        <!-- user icon  -->
+        <div class="hover:bg-mr-2 flex items-center rounded-full px-3 py-3 hover:bg-slate-300 md:order-2">
+          <button type="button" class="mr-3 flex rounded-full bg-gray-800 text-sm focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600 md:mr-0" id="user-menu-button" aria-expanded="false" data-dropdown-toggle="user-dropdown" data-dropdown-placement="bottom">
+            <span class="sr-only">Open user menu</span>
+            <img class="h-8 w-8 rounded-full" src="https://t3.ftcdn.net/jpg/02/00/90/24/360_F_200902415_G4eZ9Ok3Ypd4SZZKjc8nqJyFVp1eOD6V.jpg" alt="user photo" />
+          </button>
+        </div>
+        <!-- down arrow   -->
+
+        <div class="hover:bg-mr-1 flex items-center rounded-full px-2 py-2 hover:bg-slate-300 md:order-2">
+          <img width="24" height="24" src="https://img.icons8.com/material-two-tone/24/expand-arrow--v1.png" alt="expand-arrow--v1" />
+        </div>
+      </div>
+    </header>
+
+
+    <!-- gallery  -->
+
+
+    
+    <div class="max-[900px]:columns-4 max-[600px]:columns-3 max-[300px]:columns-2 mx-auto mb-10 w-full max-w-6xl columns-5 gap-4 space-y-4 pb-10">
+      <img class="rounded-[20px]" src="https://i.pinimg.com/236x/02/03/94/020394b9c2f48f7d1c2a3e68f7e5e22e.jpg" alt="" />
+      <img class="rounded-[20px]" src="https://i.pinimg.com/236x/ac/dc/ae/acdcaeb2c1bcbb8f6c7ef6324ea3adf9.jpg" alt="" />
+      <img class="rounded-[20px]" src="https://i.pinimg.com/236x/c0/0e/64/c00e64091e717b59491fce9cf3dc35bd.jpg" alt="" />
+      <img class="rounded-[20px]" src="https://i.pinimg.com/236x/98/96/65/989665da111b47e6747b4ae2d158088b.jpg" alt="" />
+      <img class="rounded-[20px]" src="https://i.pinimg.com/236x/f2/01/f7/f201f7d56e98fd38e122e04c2854e574.jpg" alt="" />
+      <img class="rounded-[20px]" src="https://i.pinimg.com/236x/02/03/94/020394b9c2f48f7d1c2a3e68f7e5e22e.jpg" alt="" />
+      <img class="rounded-[20px]" src="https://i.pinimg.com/236x/80/b4/ae/80b4aea91b14c84b1af22560c47e9f7f.jpg" alt="" />
+
+      <img class="rounded-[20px]" src="https://i.pinimg.com/236x/a4/be/f8/a4bef83dcabfc0561265bf36190ba96d.jpg" alt="" />
+      <img class="rounded-[20px]" src="https://i.pinimg.com/236x/a3/fd/e0/a3fde0fefe70c51c9fee7857dba64d42.jpg" alt="" />
+      <img class="rounded-[20px]" src="https://i.pinimg.com/236x/f2/01/f7/f201f7d56e98fd38e122e04c2854e574.jpg" alt="" />
+      <img class="rounded-[20px]" src="https://i.pinimg.com/236x/02/03/94/020394b9c2f48f7d1c2a3e68f7e5e22e.jpg" alt="" />
+      <img class="rounded-[20px]" src="https://i.pinimg.com/236x/10/3f/7d/103f7d455ea181c921fea6877abfad65.jpg" alt="" />
+      <img class="rounded-[20px]" src="https://i.pinimg.com/474x/7e/76/bb/7e76bbefdd99eca655975d03476c2ba4.jpg" alt="" />
+      <img class="rounded-[20px]" src="https://i.pinimg.com/236x/68/49/d1/6849d13c14bad9b96d4702b4e3c7f200.jpg" alt="" />
+
+      <img class="rounded-[20px]" src="https://i.pinimg.com/236x/d2/67/13/d26713c5731bc223a56011f1759387cc.jpg" alt="" />
+      https://i.pinimg.com/236x/68/49/d1/6849d13c14bad9b96d4702b4e3c7f200.jpg
+      <img class="rounded-[20px]" src="https://i.pinimg.com/236x/10/3f/7d/103f7d455ea181c921fea6877abfad65.jpg" alt="" />
+      <img class="rounded-[20px]" src="https://i.pinimg.com/236x/c0/0e/64/c00e64091e717b59491fce9cf3dc35bd.jpg" alt="" />
+      <img class="rounded-[20px]" src="https://i.pinimg.com/236x/f2/01/f7/f201f7d56e98fd38e122e04c2854e574.jpg" alt="" />
+      <img class="rounded-[20px]" src="https://i.pinimg.com/236x/02/03/94/020394b9c2f48f7d1c2a3e68f7e5e22e.jpg" alt="" />
+      <img class="rounded-[20px]" src="https://i.pinimg.com/236x/10/3f/7d/103f7d455ea181c921fea6877abfad65.jpg" alt="" />
+
+      <img class="rounded-[20px]" src="https://i.pinimg.com/236x/c0/0e/64/c00e64091e717b59491fce9cf3dc35bd.jpg" alt="" />
+      <img class="rounded-[20px]" src="https://i.pinimg.com/236x/98/96/65/989665da111b47e6747b4ae2d158088b.jpg" alt="" />
+      <img class="rounded-[20px]" src="https://i.pinimg.com/236x/f2/01/f7/f201f7d56e98fd38e122e04c2854e574.jpg" alt="" />
+      <img class="rounded-[20px]" src="https://i.pinimg.com/236x/02/03/94/020394b9c2f48f7d1c2a3e68f7e5e22e.jpg" alt="" />
+      <img class="rounded-[20px]" src="https://i.pinimg.com/236x/10/3f/7d/103f7d455ea181c921fea6877abfad65.jpg" alt="" />
+      <img class="rounded-[20px]" src="https://i.pinimg.com/236x/c0/0e/64/c00e64091e717b59491fce9cf3dc35bd.jpg" alt="" />
+      <img class="rounded-[20px]" src="https://i.pinimg.com/236x/98/96/65/989665da111b47e6747b4ae2d158088b.jpg" alt="" />
+
+      <img class="rounded-[20px]" src="https://i.pinimg.com/236x/f2/01/f7/f201f7d56e98fd38e122e04c2854e574.jpg" alt="" />
+      <img class="rounded-[20px]" src="https://i.pinimg.com/236x/9c/4d/8f/9c4d8fe06d0e8f3a1b2cf033bbaa8c72.jpg" alt="" />
+      <img class="rounded-[20px]" src="https://i.pinimg.com/236x/6d/01/78/6d0178613bcc13b7da35e09817951eec.jpg" alt="" />
+      <img class="rounded-[20px]" src="https://i.pinimg.com/236x/28/ed/08/28ed082c095668cb0f2a55725082f8d2.jpg" alt="" />
+      <img class="rounded-[20px]" src="https://i.pinimg.com/236x/02/49/cb/0249cb449ae529fd073809d1742782e4.jpg" alt="" />
+      <img class="rounded-[20px]" src="https://i.pinimg.com/236x/a3/fd/e0/a3fde0fefe70c51c9fee7857dba64d42.jpg" alt="" />
+    </div>
+
+    <button class="shadow-3xl fixed bottom-10 right-20 z-50 h-20 w-20 rounded-full bg-white">
+      <img class="mx-auto" width="64" height="64" src="https://img.icons8.com/sf-black-filled/64/question-mark.png" alt="question-mark" />
+    </button>
+  </body>
+</html>
